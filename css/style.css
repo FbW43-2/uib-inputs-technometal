@@ -1,0 +1,16 @@
+header {
+  width: 50%;
+}
+
+main {
+  width: 50%;
+}
+
+.search {
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+input:required {
+  background-color: lightblue;
+}
