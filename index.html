@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" style="text/css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <section>
+       <form method="POST" action="search">
+        <fieldset>
+           <legend>Search</legend>
+        <div class="search">
+            <label for="input-search">Search</label>
+            <input placeholder="Search article..." type="text" id="input-search" name="input-search" required />
+        <button type="submit">Search written in it</button>
+        </div>
+
+       </fieldset>
+    </form>
+    </section>
+   </header>
+    <main>
+<section>
+    <form method="GET" action="search">
+        <fieldset>
+            <legend>Upload Article</legend>
+            <div class="search">
+                <label for="input-upload">Upload a file for a Headline</label>
+<input type="file" id="input-upload" name="input-upload" accept="file/*"  minlength="15" maxlength="30"/>
+    </div>
+<div class="search">
+    <label for="input-upload">Upload a file for a second Headline</label>
+    <input type="file" id="input-upload" name="input-upload" accept="file/*"  minlength="15" maxlength="50" />
+<div>
+        <div>
+            <label>Description of a the article
+            <textarea placeholder="Explain the content of the article here" cols="20" rows="5"  minlength="40" maxlength="300"
+                id="input-article-description"></textarea>
+            </label>
+        </div>
+
+<div class="search">
+    <label for="input-upload-image">Upload an image</label>
+    <input type="file" id="input-upload-image" name="input-upload-image" accept="image/*" multiple minlength="15" maxlength="50" />
+    <div>
+
+        </fieldset>
+    </form>
+</section>
+    </main>
+</body>
+</html>
